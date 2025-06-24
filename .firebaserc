@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "lifetree-3c81e"
+  },
+  "targets": {
+    "lifetree-3c81e": {
+      "hosting": {
+        "site": "lifetree-3c81e"
+      }
+    }
+  }
+}
