@@ -1,0 +1,29 @@
+{
+  "name": "life-tree-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "life-tree-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean-cache": "powershell -ExecutionPolicy Bypass -File ./cleanCache.ps1"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "firebase": "^11.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
